@@ -19,7 +19,7 @@ const queryBackend = async (imageFile) => {
         const base64Image = await base64Promise;
 
         // Send image to backend (Express server)
-        const response = await fetch("http://localhost:8000/api/classify", {
+        const response = await fetch("https://plant-ai-backend-ex2g.onrender.com/api/classify", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ imageData: base64Image }),
