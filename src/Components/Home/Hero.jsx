@@ -1,5 +1,5 @@
 import React from "react";
-import Plantaifrontpage from "../../assets/plantaifrontpage.jpg"; // ✅ Updated image
+import Plantaifrontpage from "../../assets/Plantaifrontpage.jpg"; // ✅ Updated image
 
 const Hero = () => {
   return (
