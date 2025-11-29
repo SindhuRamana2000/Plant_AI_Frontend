@@ -253,7 +253,7 @@ const PredictionDisplay = ({ prediction, loading, imagePreviewUrl }) => {
                 <div className={`w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl ${color}`}>
                     {icon}
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">Classification Result</h3>
+                <h3 className="text-xl font-bold text-gray-900"> Prediction Result</h3>
             </div>
 
             {imagePreviewUrl && (
